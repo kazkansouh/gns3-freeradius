@@ -1,0 +1,18 @@
+{
+    "name": "freeradius",
+    "category": "guest",
+    "description": "Minimal freeradius server based on Alpine.",
+    "vendor_name": "freeradius",
+    "vendor_url": "https://github.com/kazkansouh/gns3-freeradius",
+    "product_name": "freeradius",
+    "registry_version": 1,
+    "status": "stable",
+    "maintainer": "Karim Kanso",
+    "maintainer_email": "none@none.net",
+    "usage": "The /root and /etc/raddb/ directories are persistent.",
+    "symbol": "linux_guest.svg",
+    "docker": {
+        "adapters": 1,
+        "image": "karimkanso/gns3-freeradius:latest"
+    }
+}
