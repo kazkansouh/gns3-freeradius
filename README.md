@@ -13,7 +13,7 @@ persistent:
 * `/root`
 * `/etc/raddb`
 
-The startup command is `radiusd-f -X` (run as foreground process with
+The startup command is `radiusd -f -X` (run as foreground process with
 full debugging).
 
 ### Baseline
