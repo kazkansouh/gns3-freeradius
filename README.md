@@ -120,7 +120,7 @@ Switch(config-if)#authentication port-control auto
 The client connecting to `g0/1` needs to run `wpa_supplicant`. If
 using `docker` in GNS3, select a docker image that has
 `wpa_supplicant` installed
-(e.g. [simple-client](https://cloud.docker.com/u/karimkanso/repository/docker/karimkanso/simple-client)). Then
+(e.g. [simple-client](https://hub.docker.com/r/karimkanso/simple-client)). Then
 update the configuration for the image in GNS3 to execute
 `wpa_supplicant` when `eth0` comes up:
 
